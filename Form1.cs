@@ -55,7 +55,7 @@ namespace arduino_localhost
                 datos = cad.Split(separar);
                 textBox1.Text = cad;
                 tiempo++;
-                /*if (tiempo > 2)
+                if (tiempo > 2)
                 {
                     try
                     {
@@ -74,7 +74,7 @@ namespace arduino_localhost
                         datos[i] = "";
                     }
                     tiempo = 0;
-                }*/
+                }
             }
         }
 
